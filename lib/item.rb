@@ -16,7 +16,9 @@ class Item
   end
 
   def close_bidding
-    
+    # @bids = Immutable::Hash[@bids]
+    # Unable to solve this one, would love feedback
+    # on a possible solution or solutions.  Thank you!
   end
 
 end
