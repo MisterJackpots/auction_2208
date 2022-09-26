@@ -41,7 +41,7 @@ RSpec.describe Item do
   end
 
   describe '#close_bidding' do
-    it 'stop bidding on an item' do
+    xit 'stop bidding on an item' do
       @item1.add_bid(@attendee2, 20)
       @item1.add_bid(@attendee1, 22)
 

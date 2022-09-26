@@ -40,8 +40,7 @@ class Auction
         bidder_names << attendee.name
       end
     end
-    bidder_names.shift
-    bidder_names
+    bidder_names.uniq
     # I would have used bidder_names.uniq to remove
     # the duplicate "Bob" since it is dynamic and
     # can take additional duplicate names, but the interaction
